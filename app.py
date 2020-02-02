@@ -55,7 +55,7 @@ notes = notes.set_index(['year','month'])
 ################################################
 # APP START
     
-app = dash.Dash('ADIC')
+app = dash.Dash('An app name')
 
 
 app.layout = html.Div([
