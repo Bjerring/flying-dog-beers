@@ -61,7 +61,7 @@ app = dash.Dash('ADIC')
 app.layout = html.Div([
     html.Div([
         html.Div([
-                html.Img(src=app.get_asset_url("ADICcl.jpg"),width=250),
+                html.H5("This is a logo"),#html.Img(src=app.get_asset_url("ADICcl.jpg"),width=250),
                 ],className="two columns"),
 
         html.Div([
